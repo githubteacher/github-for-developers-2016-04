@@ -3,6 +3,7 @@
 use strict;
 use warnings;
 
-print "Hello worlds!";
+print "Hello worlds!\n";
+print "Github class";
 
 exit 0;
