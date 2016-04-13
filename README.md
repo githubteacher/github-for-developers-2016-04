@@ -11,3 +11,6 @@ To print the name of your currently checked out branch in your prompt, include t
 ```bash
 git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 ```
+### Video Recording for Day 1, 13 April 2016, Class
+
+https://vimeo.com/162747149/c9c33f7bf7
