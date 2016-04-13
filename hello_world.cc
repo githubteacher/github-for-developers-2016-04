@@ -1,3 +1,4 @@
+First file created for git.
 # Stub header for hello_world.cc
 
 #include <iostream>
