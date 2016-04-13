@@ -1,5 +1,3 @@
-First file created for git.
-=======
 #include <iostream>
 
 int main()
