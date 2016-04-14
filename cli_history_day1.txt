@@ -1,0 +1,99 @@
+ git --version
+ git clone git@github.com:githubteacher/github-for-developers-2016-04.git
+ cd github-for-developers-2016-04/
+ git status
+ git config --list
+ git config --local user.name "githubteacher"
+ git config --local user.email services@github.com
+ git config --local --list
+ git status
+ git branch
+ git branch ght-hello-world
+ git branch
+ git checkout ght-hello-world 
+ ls -al
+ touch hello_world.cc
+ ls
+ git status
+ ls
+ git status
+ git checkout master 
+ ls
+ git status
+ git branch
+ git branch your-name-here
+ git checkout your-name-here 
+ git checkout -b faster
+ git checkout ght-hello-world 
+ git branch -d your-name-here faster 
+ ls
+ git status
+ git add hello_world.cc
+ git status
+ git commit
+ git status
+ sublime hello_world.cc 
+ git status
+ git commit -a
+ git status
+ git commit -am"demo using shortcut flags
+
+This is where an extended message would go."
+ git show
+ git remote
+ git remote show origin 
+ git push origin ght-hello-world 
+ git branch --set-upstream-to=ght-hello-world 
+ git branch --set-upstream-to=origin/ght-hello-world 
+ git branch
+ git branch -a
+ git checkout -b the-real-ght-hello-world
+ git push -u origin the-real-ght-hello-world 
+ git status
+ git checkout master 
+ ls
+ git branch -a
+ git fetch 
+ git branch -a
+ git status
+ git pull
+ ls
+ git branch
+ git merge the-real-ght-hello-world 
+ git status
+ git merge --abort 
+ git status
+ git checkout the-real-ght-hello-world
+ git merge master 
+ sublime hello_world.cc
+ git status
+ git add hello_world.cc
+ git status
+ git commit
+ git push
+ git checkout master 
+ cat hello_world.cc
+ git pull
+ git branch
+ git branch -d the-real-ght-hello-world 
+ git checkout -b merge-target
+ git checkout master 
+ git branch
+ git branch -d merge-target 
+ git branch -d ght-hello-world 
+ git pull
+ git branch -a
+ git pull
+ git show
+ git log
+ git log -3
+ git log --oneline -3
+ git log --oneline --decorate -3
+ git fetch 
+ git log --oneline --decorate
+ git log --oneline --decorate -3
+ git log --oneline --decorate --all -10
+ git merge origin/master 
+ git log --oneline --decorate --all -10
+ git log --oneline --decorate --all --graph -10
+ 
