@@ -1,0 +1,1 @@
+This is wa-hello-world text file.
