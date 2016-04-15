@@ -1,0 +1,115 @@
+git clone git@github.com:githubteacher/github-for-developers-2016-04.git
+cd github-for-developers-2016-04/
+git remote
+git remote -v
+git branch -a
+cat .git/HEAD 
+git checkout -b pm-hello-world-redux
+cat .git/HEAD 
+touch hello_world_redux.cc
+git status
+git add .
+git status
+git commit -m"practice github flow from beg to end"
+git log --oneline --graph --decorate --all -3
+git branch -a
+git push -u origin pm-hello-world-redux 
+sublime hello_world_redux.cc 
+git status
+git commit -am"show keywords: this fixes #10"
+git push
+git checkout master 
+git lga -2
+git lga -5
+git pull
+git branch
+git branch -d pm-hello-world-redux 
+git lga -5
+git config --global alias.lga "log --oneline --graph --decorate --all"
+git lga -2
+git config --global alias.co "checkout"
+ls
+git pull
+git checkout -b make-it-do-something
+git mv hello_world_redux.cc the_real_hello_world.cc
+ls
+git status
+git commit -m"demo renaming files"
+sublime the_real_hello_world.cc 
+git status
+git diff
+git add .
+git status
+git diff
+git diff --staged 
+git diff
+git diff --staged 
+git diff make-it-do-something 
+git diff HEAD
+git lga -1
+git diff eccf9de
+git status
+git commit -am"actually have the program do something visible"
+git diff master 
+git diff --stat master
+git diff
+git lga -2
+git commit -a --amend 
+git lga -2
+git revert c87d4d5
+git lga -3
+git diff eccf9de
+git lga -5
+git checkout -b reset-demo
+echo 'lorem ipsum' >> README.md 
+git commit -am"add first dummy line"
+echo 'a second line' >> README.md 
+git commit -am"add second line"
+echo 'and a third' >> README.md 
+git commit -am"and a third one"
+git lga -5
+git lga -5
+git reset --soft 7346bb9
+git lga -5
+git status
+git diff --staged
+git commit -m"add additional two lines"
+git lga -5
+git reset 0405c85
+git status
+git diff
+git commit -am"demo adding all three lines at once via reset --mixed"
+git lga -5
+git reset --hard 0405c85
+git lga -5
+cat README.md 
+git reflog 
+git reset --hard eecad54
+git lga -5
+git status
+echo 'fourth line' >> README.md 
+git status
+git add .
+echo 'fourth line' >> README.md 
+git status
+git checkout -- README.md
+git status
+git diff HEAD 
+git reset --hard 
+git status
+cat README.md 
+git checkout e32783f -- README.md
+git status
+git commit
+git fetch 
+git branch
+sublime .gitignore
+git status
+touch dummy.o
+git status
+git dummy.txt
+touch dummy.txt
+git status
+cat .git/HEAD 
+cd github-for-developers-2016-04/
+history > cli_history_day2.txt
